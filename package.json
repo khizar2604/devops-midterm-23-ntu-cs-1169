@@ -1,0 +1,18 @@
+{
+  "name": "devops-midterm-23-ntu-cs-1169",
+  "version": "1.0.0",
+  "description": "Grade calculator with a sequential DevOps CI pipeline",
+  "main": "src/grade.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "files": [
+    "src/"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
+}
